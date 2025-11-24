@@ -18,60 +18,43 @@
           <li><a href="desafios.html">Desafios & Ações</a></li>
         </ul>
       </nav>
-      <div class="controls">
-        <button id="theme-toggle-2" class="theme-btn" aria-label="Alternar tema">🌙</button>
-      </div>
     </div>
   </header>
 
   <main class="container" role="main">
     <h1>Personalidades e contribuições</h1>
-    <p class="lede">Filtre por área para explorar breves biografias.</p>
-
-    <div class="filter-bar">
-      <label for="area-filter" class="visually-hidden">Filtrar por área</label>
-      <select id="area-filter" aria-label="Filtrar personalidades por área">
-        <option value="all">Todas as áreas</option>
-        <option value="arte">Arte</option>
-        <option value="ciencia">Ciência</option>
-        <option value="politica">Política</option>
-        <option value="esporte">Esporte</option>
-      </select>
-    </div>
+    <p class="lede">Mini-biografias de figuras importantes nas artes, ciência, política e esporte.</p>
 
     <section class="cards-grid" id="personalities-list" aria-live="polite">
-      <!-- Cada card tem data-area para filtro -->
-      <article class="person-card" data-area="arte" tabindex="0">
+      <article class="person-card" tabindex="0">
         <img src="assets/images/personalidade-1.jpg" alt="Retrato de uma artista negra sorrindo" loading="eager">
-        <h3>Nome Artista</h3>
-        <p>Breve biografia: contribuições nas artes visuais e cultura popular.</p>
+        <h3>Artista Exemplo</h3>
+        <p>Breve texto sobre contribuição artística e cultural.</p>
       </article>
 
-      <article class="person-card" data-area="ciencia" tabindex="0">
-        <img src="assets/images/personalidade-2.jpg" alt="Foto de um(a) cientista negro(a) em laboratório" loading="lazy">
-        <h3>Nome Cientista</h3>
-        <p>Breve biografia: conquistas e pesquisa científica.</p>
+      <article class="person-card" tabindex="0">
+        <img src="assets/images/personalidade-2.jpg" alt="Retrato de um(a) cientista negro(a) em ambiente de laboratório" loading="lazy">
+        <h3>Cientista Exemplo</h3>
+        <p>Breve texto sobre pesquisa e impacto científico.</p>
       </article>
 
-      <article class="person-card" data-area="politica" tabindex="0">
-        <img src="assets/images/personalidade-3.jpg" alt="Foto de um político negro em discurso público" loading="lazy">
-        <h3>Nome Político</h3>
-        <p>Breve biografia: lutas políticas e políticas públicas.</p>
+      <article class="person-card" tabindex="0">
+        <img src="assets/images/personalidade-3.jpg" alt="Retrato de um(a) político(a) negro(a) em discurso" loading="lazy">
+        <h3>Político(a) Exemplo</h3>
+        <p>Breve texto sobre atuação política e lutas por direitos.</p>
       </article>
 
-      <article class="person-card" data-area="esporte" tabindex="0">
-        <img src="assets/images/personalidade-4.jpg" alt="Atleta negro comemorando uma vitória" loading="lazy">
-        <h3>Nome Atleta</h3>
-        <p>Breve biografia: conquistas esportivas e impacto social.</p>
+      <article class="person-card" tabindex="0">
+        <img src="assets/images/personalidade-4.jpg" alt="Atleta negro(a) comemorando vitória" loading="lazy">
+        <h3>Atleta Exemplo</h3>
+        <p>Breve texto sobre conquistas esportivas e impacto social.</p>
       </article>
-
-      <!-- adicione mais cards conforme necessário (mínimo 3 imgs nesta página) -->
     </section>
   </main>
 
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <p>Créditos de imagens no README • Projeto educativo</p>
+      <p>Créditos das imagens e fontes no README.</p>
     </div>
   </footer>
 
